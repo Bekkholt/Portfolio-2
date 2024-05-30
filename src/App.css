@@ -28,6 +28,12 @@
   color: #61dafb;
 }
 
+.title {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +42,4 @@
     transform: rotate(360deg);
   }
 }
+

@@ -8,7 +8,7 @@ import {
   TextInput,
   Footer,
 } from "flowbite-react";
-import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 import { IoPersonCircle } from "react-icons/io5";
 import { useState } from "react";
 import { HiEnvelope } from "react-icons/hi2";
@@ -20,26 +20,37 @@ export default function About() {
 
   return (
     <>
-      <div className="flex min-h-[50vh] items-center justify-center">
-        <Button className="bg-orange-500" onClick={() => setIsOpen(true)}>
-          About
+      <div className="flex min-h-[25vh] items-center justify-center">
+        <Button
+          className="bg-gray-800 border-pink-300"
+          onClick={() => setIsOpen(true)}
+          pill
+        >
+          Contact
         </Button>
       </div>
-      <Drawer open={isOpen} onClose={handleClose} className="bg-orange-200">
+      <Drawer open={isOpen} onClose={handleClose} className="bg-orange-100">
         <Drawer.Header title="About" titleIcon={IoPersonCircle} />
         <Drawer.Items>
           <p className="mb-6 text-sm text-gray-500 dark:text-gray-400">
-            Supercharge your hiring by taking advantage of our for Flowbite Docs
-            + Job Board. Unlimited access to over 190K top-ranked candidates and
-            the #1 design job board.
+            Hi there! My name is Tina Bekkholt, and I am an officially educated
+            front-end developer, ready for your service. This is my portfolio
+            where all my work will be shown as I go on to explore the world of
+            front-end. So, if you are interested in having a website, please
+            contact me for a quick chat about what you want and need.
           </p>
         </Drawer.Items>
         <Drawer.Items>
           <div className="mt-4 mb-10 flex space-x-6 sm:mt-0 sm:justify-center">
-            <Footer.Icon href="#" icon={BsFacebook} />
-            <Footer.Icon href="#" icon={BsInstagram} />
-            <Footer.Icon href="#" icon={BsTwitter} />
-            <Footer.Icon href="#" icon={BsGithub} />
+            <Footer.Icon
+              href="https://www.facebook.com/tina.bekkholt/"
+              icon={BsFacebook}
+            />
+            <Footer.Icon href="https://github.com/Bekkholt" icon={BsGithub} />
+            <Footer.Icon
+              href="https://www.linkedin.com/in/tina-bekkholt-267355249/"
+              icon={BsLinkedin}
+            />
           </div>
         </Drawer.Items>
         <Drawer.Header title="Contact" titleIcon={HiEnvelope}></Drawer.Header>
@@ -78,12 +89,19 @@ export default function About() {
               />
             </div>
             <div className="mb-6">
-              <Button type="submit" className="w-full bg-orange-500">
+              <Button
+                type="submit"
+                className="w-full bg-gray-800 border-pink-300"
+                pill
+              >
                 Send message
               </Button>
             </div>
             <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-              <a href="mailto:info@company.com" className="hover:underline">
+              <a
+                href="mailto:tina.bekkholt@hotmail.com"
+                className="hover:underline"
+              >
                 tina.bekkholt@hotmail.com
               </a>
             </p>
