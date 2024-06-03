@@ -2,7 +2,7 @@ import Cards from "../cards";
 import About from "../navbar";
 import { Footer } from "flowbite-react";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
-
+import { HiEnvelope } from "react-icons/hi2";
 export default function Layout() {
   return (
     <div className="bg-orange-100">
@@ -17,6 +17,10 @@ export default function Layout() {
         <Footer.Icon
           href="https://www.linkedin.com/in/tina-bekkholt-267355249/"
           icon={BsLinkedin}
+        />
+        <Footer.Icon
+          href="mailto:tina.bekkholt@hotmail.com"
+          icon={HiEnvelope}
         />
       </div>
       <About />
