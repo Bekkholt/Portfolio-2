@@ -1,15 +1,18 @@
 "use client";
 
 import { Card } from "flowbite-react";
+import Auctionhouse from "../../Images/portfolioauctionhouse.jpg";
+import ShopDrop from "../../Images/portfolioshopdrop.jpg";
+import Holidaze from "../../Images/holidazescreenshot.jpg";
 
 export default function Cards() {
   return (
     <div className="flex min-h-[50vh] items-center justify-center flex-wrap">
       <a href="https://eclectic-cheesecake-582684.netlify.app/">
         <Card
-          className="max-w-sm bg-orange-200 m-2 border-pink-300 pb-4"
+          className="max-w-sm bg-orange-200 m-2 border-pink-300"
           imgAlt="Screenshot of Auctionhouse Homepage - Dark blue theme with white details"
-          imgSrc="https://github.com/Bekkholt/semester-project-2/blob/main/images/portfolioauctionhouse.jpg?raw=true"
+          imgSrc={Auctionhouse}
         >
           <h5 className="text-3xl font-bold h2 tracking-tight text-gray-900 dark:text-white">
             Auctionhouse
@@ -22,33 +25,31 @@ export default function Cards() {
       </a>
       <a href="https://sprightly-twilight-6dc1f3.netlify.app/">
         <Card
-          className="max-w-sm bg-orange-200 m-2 border-pink-300 pb-3"
+          className="max-w-sm bg-orange-200 m-2 border-pink-300"
           imgAlt="Screenshot of Shop-Drop Homepage - Bright blue pastell theme with light gray text"
-          imgSrc="https://raw.githubusercontent.com/Bekkholt/js-frameworks/main/public/portfolioshopdrop.jpg"
+          imgSrc={ShopDrop}
         >
           <h5 className="text-3xl font-bold h2 tracking-tight text-gray-900 dark:text-white">
             Shop-drop
           </h5>
           <p className="font-normal text-gray-700 dark:text-gray-400">
-            Shop-drop is a simple and playful eCom store in pastell where users
-            can add and delete products in the cart, checkout and send in a
-            contact form.
+            Shop-drop is a simple and playful eCom store where users can add and
+            delete products in the cart, checkout and send in a contact form.
           </p>
         </Card>
       </a>
       <a href="https://holidazebookings.netlify.app/">
         <Card
-          className="max-w-sm bg-orange-200 m-2 border-pink-300 pb-1"
+          className="max-w-sm bg-orange-200 m-2 border-pink-300"
           imgAlt="Screenshot of Holidaze Bookings Homepage - Dark grey theme with orange details and white text"
-          imgSrc="../../../public/holidazescreenshot.jpg"
+          imgSrc={Holidaze}
         >
           <h5 className="text-3xl font-bold h2 tracking-tight text-gray-900 dark:text-white">
             Holidaze Bookings
           </h5>
           <p className="font-normal text-gray-700 dark:text-gray-400">
             Holidaze Bookings is a booking site where you can book your venue of
-            interest and register as a venue manager to publish your own venue
-            for others to be able to book.
+            interest and publish your own venue for others to be able to book.
           </p>
         </Card>
       </a>
