@@ -8,7 +8,7 @@ export default function Layout() {
     <div className="bg-orange-100">
       <h1 className="flex justify-center pt-5 title text-6xl">Bekkholt</h1>
       <h2 className="flex justify-center text-2xl h2">Front-end developer</h2>
-      <div className="flex space-x-6 sm:mt-0 sm:justify-center pt-5">
+      <div className="flex space-x-6 sm:mt-0 sm:justify-center pt-5 justify-center">
         <Footer.Icon
           href="https://www.facebook.com/tina.bekkholt/"
           icon={BsFacebook}

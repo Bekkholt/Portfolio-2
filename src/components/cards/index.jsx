@@ -4,7 +4,7 @@ import { Card } from "flowbite-react";
 
 export default function Cards() {
   return (
-    <div className="flex min-h-[50vh] items-center justify-center">
+    <div className="flex min-h-[50vh] items-center justify-center flex-wrap">
       <a href="https://eclectic-cheesecake-582684.netlify.app/">
         <Card
           className="max-w-sm bg-orange-200 m-2 border-pink-300 pb-4"
@@ -40,7 +40,7 @@ export default function Cards() {
         <Card
           className="max-w-sm bg-orange-200 m-2 border-pink-300 pb-1"
           imgAlt="Screenshot of Holidaze Bookings Homepage - Dark grey theme with orange details and white text"
-          imgSrc="https://raw.githubusercontent.com/Bekkholt/project-exam-2/main/public/holidazebooking.jpg"
+          imgSrc="../../../public/holidazescreenshot.jpg"
         >
           <h5 className="text-3xl font-bold h2 tracking-tight text-gray-900 dark:text-white">
             Holidaze Bookings

@@ -34,7 +34,7 @@ export default function About() {
         </Drawer.Items>
         <Drawer.Header title="Contact" titleIcon={BsDot}></Drawer.Header>
         <Drawer.Items>
-          <div className="mt-4 mb-10 flex space-x-6 sm:mt-0 sm:justify-center">
+          <div className="mt-4 mb-10 flex space-x-6 sm:mt-0">
             <Footer.Icon
               href="https://www.facebook.com/tina.bekkholt/"
               icon={BsFacebook}
