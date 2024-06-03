@@ -14,7 +14,9 @@ export default function About() {
     <>
       <div className="flex min-h-[20vh] items-center justify-center">
         <Button
-          className="bg-gray-800 border-pink-300 "
+          gradientDuoTone="redToYellow"
+          size="xl"
+          className="text-gray-700 shadow-xl"
           onClick={() => setIsOpen(true)}
           pill
         >

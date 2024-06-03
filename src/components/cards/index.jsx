@@ -10,7 +10,7 @@ export default function Cards() {
     <div className="flex min-h-[50vh] items-center justify-center flex-wrap">
       <a href="https://eclectic-cheesecake-582684.netlify.app/">
         <Card
-          className="max-w-sm bg-orange-200 m-2 border-pink-300"
+          className="max-w-sm bg-orange-200 m-2 border-pink-300 hover:bg-orange-300"
           imgAlt="Screenshot of Auctionhouse Homepage - Dark blue theme with white details"
           imgSrc={Auctionhouse}
         >
@@ -25,7 +25,7 @@ export default function Cards() {
       </a>
       <a href="https://sprightly-twilight-6dc1f3.netlify.app/">
         <Card
-          className="max-w-sm bg-orange-200 m-2 border-pink-300"
+          className="max-w-sm bg-orange-200 m-2 border-pink-300 hover:bg-orange-300"
           imgAlt="Screenshot of Shop-Drop Homepage - Bright blue pastell theme with light gray text"
           imgSrc={ShopDrop}
         >
@@ -40,7 +40,7 @@ export default function Cards() {
       </a>
       <a href="https://holidazebookings.netlify.app/">
         <Card
-          className="max-w-sm bg-orange-200 m-2 border-pink-300"
+          className="max-w-sm bg-orange-200 m-2 border-pink-300 hover:bg-orange-300"
           imgAlt="Screenshot of Holidaze Bookings Homepage - Dark grey theme with orange details and white text"
           imgSrc={Holidaze}
         >
