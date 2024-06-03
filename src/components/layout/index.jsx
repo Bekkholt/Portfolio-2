@@ -7,7 +7,7 @@ export default function Layout() {
   return (
     <div className="bg-orange-100">
       <h1 className="flex justify-center pt-5 title text-6xl">Bekkholt</h1>
-      <h3 className="flex justify-center text-md">Front-end developer</h3>
+      <h2 className="flex justify-center text-2xl h2">Front-end developer</h2>
       <div className="flex space-x-6 sm:mt-0 sm:justify-center pt-5">
         <Footer.Icon
           href="https://www.facebook.com/tina.bekkholt/"

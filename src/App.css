@@ -34,6 +34,13 @@
   font-style: normal;
 }
 
+.h2 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

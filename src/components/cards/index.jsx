@@ -11,7 +11,7 @@ export default function Cards() {
           imgAlt="Screenshot of Auctionhouse Homepage - Dark blue theme with white details"
           imgSrc="https://github.com/Bekkholt/semester-project-2/blob/main/images/portfolioauctionhouse.jpg?raw=true"
         >
-          <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="text-3xl font-bold h2 tracking-tight text-gray-900 dark:text-white">
             Auctionhouse
           </h5>
           <p className="font-normal text-gray-700 dark:text-gray-400">
@@ -26,7 +26,7 @@ export default function Cards() {
           imgAlt="Screenshot of Shop-Drop Homepage - Bright blue pastell theme with light gray text"
           imgSrc="https://raw.githubusercontent.com/Bekkholt/js-frameworks/main/public/portfolioshopdrop.jpg"
         >
-          <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="text-3xl font-bold h2 tracking-tight text-gray-900 dark:text-white">
             Shop-drop
           </h5>
           <p className="font-normal text-gray-700 dark:text-gray-400">
@@ -42,7 +42,7 @@ export default function Cards() {
           imgAlt="Screenshot of Holidaze Bookings Homepage - Dark grey theme with orange details and white text"
           imgSrc="https://raw.githubusercontent.com/Bekkholt/project-exam-2/main/public/holidazebooking.jpg"
         >
-          <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="text-3xl font-bold h2 tracking-tight text-gray-900 dark:text-white">
             Holidaze Bookings
           </h5>
           <p className="font-normal text-gray-700 dark:text-gray-400">
