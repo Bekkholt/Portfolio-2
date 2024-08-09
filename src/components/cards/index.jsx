@@ -9,7 +9,7 @@ import ThonerGolf from "../../Images/Screenshot 2024-08-07 105120.jpg";
 export default function Cards() {
   return (
     <div className="flex min-h-[50vh] items-center justify-center flex-wrap">
-      <a href="https://thonergolf.netlify.app/">
+      <a href="https://thoner.golf/">
         <Card
           className="max-w-sm bg-orange-200 m-2 border-pink-300 hover:bg-orange-300"
           imgAlt="Screenshot of thoner.golf Homepage - Black theme with green details and white text"
